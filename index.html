@@ -1,0 +1,182 @@
+<html lang="sv-SE" prefix="og: http://ogp.me/ns#" class="responsejs fa-events-icons-ready"><head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="bds2.js"></script>
+    <script type="text/javascript" src="bds.js"></script>
+    <link rel="stylesheet" id="style-css" href="index.css" type="text/css" media="all">
+    <script type="text/javascript" language="javascript">
+        
+    var resizeIframe = function(params) {
+        try {
+            jQuery("#spareparts_popup_iframe").height(params.height);
+        } catch (e) {
+
+		}
+	}
+	var openKlarnaLayer = function(html) {
+		jQuery("#klarna_popup").remove();
+		jQuery("<div></div>")
+		.attr({"id": "klarna_popup"})
+		.css({"zIndex": 10000, "height": "1200px", "position": "absolute", "display": "block", "padding": 0, "margin": 0})
+		.width(jQuery("#spareparts_popup_iframe").width())
+		.addClass("site-content")
+		.insertAfter("#spareparts_popup_iframe")
+		.position({"my": "left top-10", "at": "left top", "of": "#spareparts_popup_iframe"})
+		.html(html);
+	}
+</script>
+</head>
+<style>
+a:hover {
+    color: #2e8b03;
+    }
+.hero-image {
+  background-image:
+   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background-b.jpg");
+  height:100px;
+  max-height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:99%;
+  position: relative;
+  margin-top: 100px;
+}
+</style>
+<body class="home page-template-default page page-id-58" id="startsida">
+    <div id="page" class="hfeed site"><br/>
+        <div class="inline-content">
+        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+			<div class="site-branding"><br/><br/>
+				<a href="http://bdsborlange.se/" rel="home">
+					<img src="B.png" alt="">
+				</a>
+			</div>
+            <div style="padding-left: 310px;">
+                <div>
+                    <h1 style="color: #f3f5f7; font-size: 37px;font-family:open sans condensed,sans-serif;letter-spacing: 0.1em;">BDS Borlänge </h1>
+                </div>
+                <div>
+                    <h1 style="margin-top:-45px;padding-left: 410px; color: #f3f5f7; font-size: 30px;font-family:open sans condensed,sans-serif;letter-spacing: 0.1em;">0243-120 00</h1>
+                </div>
+            </div>
+            <div style="float:right;">
+            <header id="masthead" style="width:250px; " class="site-header" role="banner">
+            <nav id="site-navigation" style="text-align:center;" class="main-navigation" role="navigation">
+                <button class="menu-toggle">Primary Menu</button>
+                <div class="menu-huvudmeny-container">
+                    <ul id="menu-huvudmeny" class="menu">
+                        <li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72">
+                    <a href="service.html">Boka service</a></li>
+                    <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73">
+                        <a href="kontakt.html">Kontakta oss</a></li>
+                    </ul>
+                </div>			
+            </nav>
+		</header>
+    </div>
+</div>
+<div class="hero-image">
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main" role="main">
+                        <br/>
+                        <article class="clear">
+                            <div class="col">
+                                <img src="" alt="">
+                            </div>
+                            
+                            <div class="col">
+                                <h1 style="padding-left:20px;">BDS-kortet</h1>
+                                <ul>
+                                    <li>24 mån räntefri betalning</li>
+                                    <li>Handla nu - betala senare</li>
+                                    <li>Utan extra avgifter</li>
+                                </ul>
+                                <a class="button" href="https://apponline.resurs.com/form/SE33000" target="_blank">Ansök här</a>
+                            </div>
+                            <div class="col">
+                                <h1 style="padding-left:20px;">Boka bilservice</h1>
+                                <ul>
+                                    <li>Fast pris direkt på service</li>
+                                    <li>Välutbildad personal</li>
+                                    <li>Alla bilmärken</li>
+                                </ul>
+                                <a class="button" href="service.html">Boka nu</a>
+                            </div>
+                            <div class="col">
+                                <h1 style="padding-left:20px;">Öppettider</h1>
+                                <ul class="font_8">
+                                    <li>Måndag–fredag:08:00–17:00</li>
+                                    <li>Helgdag:Stängt</li>
+                                </ul>
+                                <a class="button" href="kontakt.html">Kontakt</a>
+                            </div>
+                        </article>
+                        <br/>
+                        <div class="sep"></div>
+                        <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="3000" data-cycle-slides="> .slide" data-cycle-pager=".cycle-pager" data-cycle-pager-template="<a href=#></a>" style="overflow: hidden;">
+                            <div class="slide cycle-slide cycle-sentinel" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block;">
+                            <img src="Topp_priset.png">
+                        </div>
+                        <div class="cycle-pager">
+                        </div>
+                        <div class="slide cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 97; opacity: 1; display: none;">
+                                <img src="delbetala.png">
+                            </div>
+                            <div id="1" class="slide cycle-slide cycle-slide-active" style="position: absolute; top: 0px; left: 0px; z-index: 99; display: block; opacity: 1;">
+                                <img src="mv2.png">
+                            </div>
+                            <div id="2" class="slide cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 97; display: none;">
+                                <img src="mv3.png">
+                            </div>
+                            <div id="3" class="slide cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 96; display: none;">
+                                <img src="delbetala.png">
+                            </div>
+                            <div id="4" class="slide cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 95; display: none;">
+                                <img src="Topp_priset.png">
+                            </div>
+                            <div id="5" class="slide cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 94; display: none;">
+                                <img src="Höstannons.png">
+                            </div>
+                        </div>
+                        <article class="clear">
+                            <div class="col widget w-1" style="background-image: url();">
+                                <div class="inner">
+                                    <h2>Vi tar hand om bilen</h2>
+                                    <p>Vi är en märkesoberoende verkstad och hjälper dig med reparationer och service.</p>
+                                </div>
+                            </div>
+                            <div class="col widget w-2" style="background-image: url();">
+                                <div class="inner">
+                                    <h2>Vägassistans</h2>
+                                    <p>Vi på BDS kan din bil, och vi bryr oss. Här får du hjälp och goda råd, reparationer och service.</p>
+                                </div>
+                            </div>
+                            <div class="col widget w-3">
+                                <div class="inner">
+                                    <h2>Kontakt</h2>
+                                    <div><b>Telefon: 0243-120 00</b></div>
+                                    <p><b>Mail:</b> <a href="mailto:@Borlange@bds.se">Borlange@bds.se</a></p>
+                                    <div><b>Adress:</b></div>
+                                    <div>Hugo hedströms väg 6</div>
+                                    <p>781 72 Borlänge</p>
+                                </div>
+                            </div>
+                        </article>
+                            </main>
+                        </div>
+                    </div>
+                </div>
+                    <footer id="colophon" class="site-footer" role="contentinfo">
+                        <div class="site-info">
+                            <div class="right s-l-h">Följ oss på 
+                                <a href="https://www.facebook.com/BDSSverige?fref=ts">
+                                    <img src="fb.png" alt=""></a>
+                                    <a href="https://www.instagram.com/bds_borlange/">
+                                        <img style="width:35px;" src="instagram-48.png" alt="">
+                                    </a></div>
+                                    © 2021 Borlänge | En del av <a href="http://bds.se/" target="_blank">BDS kedjan</a> | Tel: 0243-120 00
+                                </div>
+                            </footer>
+                        </div>
+                    </body>
+                    </html>
